@@ -1,11 +1,9 @@
 import './styles.css';
-import { ReactComponent as Logo } from './logo.svg';
 import StepsHeader from './StepsHeader';
 import ProductsList from './ProductsList';
 import React, { useEffect, useState } from 'react';
 import { OrderLocationData, Product } from './types';
 import { fetchProducts, saveOrder } from '../api';
-import { isConstructorDeclaration } from 'typescript';
 import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
 import Footer from '../Footer';
